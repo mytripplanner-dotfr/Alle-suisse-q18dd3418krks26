@@ -1,0 +1,400 @@
+{
+  "pays": "Suisse",
+  "drapeau": "🇨🇭",
+  "symbole": "🏔️",
+  "titre": "Évasion Alpine et Lacustre en Pays de Vaud",
+  "budget_total": "4890€",
+  "duree": "13 jours",
+  "temps_vol": "12h avec escale depuis Gaut, pakistan",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée en Suisse et Douceur Aiglonne",
+      "legende": "Après un long voyage, la première journée est dédiée à une transition en douceur. Vous atterrirez à Genève, puis prendrez le train pour Aigle, une charmante ville au cœur du Chablais vaudois. L'installation à l'hôtel sera suivie d'une première immersion dans l'ambiance locale, sans précipitation, pour s'acclimater au rythme suisse.",
+      "lieu": "Aigle",
+      "activites": [
+        "🛬 <strong>Arrivée à Genève et transfert à Aigle</strong>: Atterrissez à l'aéroport de Genève (GVA) et profitez d'un trajet pittoresque en train jusqu'à Aigle, offrant un premier aperçu des paysages suisses.",
+        "🛏️ <strong>Installation à l'hôtel et détente</strong>: Prenez le temps de vous installer dans votre hôtel 3 étoiles et de vous rafraîchir après le voyage, avant toute exploration."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "À savoir",
+          "texte": "Le Swiss Travel Pass est idéal pour les transports en Suisse, couvrant trains, bus et bateaux, ainsi que de nombreux musées."
+        },
+        {
+          "symbole": "🚆",
+          "titre": "Conseil Transport",
+          "texte": "Le trajet en train de Genève à Aigle dure environ 1h15 et offre de belles vues sur le lac Léman."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🏰",
+      "titre": "Histoire et Vignobles d'Aigle",
+      "legende": "Plongez au cœur de l'histoire et de la culture viticole d'Aigle. La journée vous mènera à travers les remparts d'un château médiéval emblématique, puis dans les vignobles ensoleillés qui font la renommée de la région. Une dégustation vous permettra de savourer les saveurs locales et de comprendre le terroir unique du Chablais.",
+      "lieu": "Aigle",
+      "activites": [
+        "🏰 <strong>Visite du Château d'Aigle et son Musée de la Vigne et du Vin</strong>: Explorez ce magnifique château médiéval qui abrite un musée fascinant dédié à l'histoire de la viticulture suisse.",
+        "🍇 <strong>Balade dans les vignobles d'Aigle et dégustation</strong>: Promenez-vous à travers les coteaux ensoleillés et terminez par une dégustation de vins locaux dans une cave traditionnelle."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "🍷",
+          "titre": "Astuce Dégustation",
+          "texte": "Les vins du Chablais, notamment le Chasselas, sont réputés pour leur fraîcheur et leur minéralité. N'hésitez pas à demander des conseils aux vignerons."
+        },
+        {
+          "symbole": "🚶‍♂️",
+          "titre": "Accès",
+          "texte": "Le Château d'Aigle est facilement accessible à pied depuis le centre-ville et la gare."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "👑",
+      "titre": "Perle du Léman: Montreux et Chillon",
+      "legende": "Aujourd'hui, direction Montreux, la \"Perle de la Riviera suisse\". Vous découvrirez son célèbre château de Chillon, une forteresse médiévale posée sur l'eau, puis flânerez le long de la promenade fleurie du lac Léman. L'ambiance élégante et les paysages grandioses entre lac et montagnes vous enchanteront.",
+      "lieu": "Montreux",
+      "activites": [
+        "👑 <strong>Visite du Château de Chillon</strong>: Explorez l'un des châteaux les plus visités de Suisse, une forteresse médiévale superbement conservée au bord du lac Léman.",
+        "🚶‍♀️ <strong>Promenade le long des quais fleuris de Montreux</strong>: Profitez d'une balade relaxante sur la célèbre promenade de Montreux, bordée de fleurs, de sculptures et offrant des vues imprenables sur le lac."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "🎶",
+          "titre": "Anecdote",
+          "texte": "Montreux est mondialement connue pour son Festival de Jazz. La statue de Freddie Mercury sur les quais témoigne de son amour pour la ville."
+        },
+        {
+          "symbole": "🚌",
+          "titre": "Transport",
+          "texte": "Un bus relie la gare de Montreux au Château de Chillon en quelques minutes, ou vous pouvez y aller à pied le long du lac."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "⛰️",
+      "titre": "Panoramas Alpins aux Rochers de Naye",
+      "legende": "Prenez de la hauteur pour une journée spectaculaire aux Rochers de Naye. Un train à crémaillère vous emmènera vers des sommets offrant des vues panoramiques à couper le souffle sur le lac Léman et les Alpes. Vous pourrez y rencontrer des marmottes et profiter de l'air pur de la montagne, une expérience inoubliable.",
+      "lieu": "Rochers de Naye",
+      "activites": [
+        "🚂 <strong>Ascension en train à crémaillère aux Rochers de Naye</strong>: Embarquez pour un voyage pittoresque en train depuis Montreux jusqu'au sommet des Rochers de Naye, à 2042 mètres d'altitude.",
+        "🏞️ <strong>Observation des marmottes et vue panoramique</strong>: Au sommet, admirez le \"Marmottes Paradis\" et laissez-vous émerveiller par la vue à 360° sur les Alpes suisses et françaises, ainsi que sur le lac Léman."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "🧥",
+          "titre": "Préparation",
+          "texte": "Même en été, les températures peuvent être fraîches au sommet. Prévoyez des vêtements chauds et une veste coupe-vent."
+        },
+        {
+          "symbole": "🥾",
+          "titre": "Activité",
+          "texte": "Plusieurs sentiers de randonnée sont accessibles depuis le sommet pour les amateurs de marche."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🍇",
+      "titre": "Les Terrasses de Lavaux, Patrimoine UNESCO",
+      "legende": "Explorez les magnifiques terrasses de Lavaux, un site classé au patrimoine mondial de l'UNESCO. Cette journée sera dédiée à la découverte de ces vignobles en pente douce, offrant des vues imprenables sur le lac Léman. Une balade entre les ceps, ponctuée d'une dégustation de vin local, vous plongera dans l'âme de cette région viticole unique.",
+      "lieu": "Lavaux",
+      "activites": [
+        "🚶‍♀️ <strong>Randonnée dans les vignobles en terrasses de Lavaux</strong>: Parcourez les sentiers balisés entre les vignes, de Lutry à Cully par exemple, pour admirer les paysages exceptionnels.",
+        "🍷 <strong>Dégustation de vin dans un caveau de Lavaux</strong>: Faites une halte dans un des nombreux \"caveaux\" pour goûter les vins produits localement, souvent accompagnés de spécialités régionales."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "☀️",
+          "titre": "Conseil",
+          "texte": "Les terrasses de Lavaux sont très ensoleillées. N'oubliez pas chapeau, lunettes de soleil et crème solaire."
+        },
+        {
+          "symbole": "🗺️",
+          "titre": "Itinéraire",
+          "texte": "Des trains régionaux desservent les villages de Lavaux, facilitant les balades d'un point à un autre."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🧀",
+      "titre": "Gruyères, entre Fromage et Légendes",
+      "legende": "Voyagez dans le temps et les saveurs en visitant la cité médiévale de Gruyères. Vous découvrirez les secrets de fabrication du célèbre fromage AOP à la Maison du Gruyère, puis explorerez le château légendaire qui domine le village. Une immersion complète dans la culture et la gastronomie fribourgeoise vous attend.",
+      "lieu": "Gruyères",
+      "activites": [
+        "🧀 <strong>Visite de la Maison du Gruyère</strong>: Découvrez les étapes de fabrication du fameux fromage Gruyère AOP et assistez à une démonstration en direct.",
+        "🏰 <strong>Exploration du Château de Gruyères</strong>: Plongez dans l'histoire en visitant ce château médiéval magnifiquement conservé, offrant des vues imprenables sur la campagne environnante."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "👽",
+          "titre": "Insolite",
+          "texte": "Gruyères abrite également le musée H.R. Giger, l'artiste créateur de l'Alien, pour une expérience contrastée."
+        },
+        {
+          "symbole": "🍽️",
+          "titre": "Gastronomie",
+          "texte": "Ne quittez pas Gruyères sans avoir dégusté une fondue moitié-moitié ou une double crème avec des meringues."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "❄️",
+      "titre": "Aventure Glaciaire à Glacier 3000",
+      "legende": "Préparez-vous à une journée d'altitude et d'émerveillement au Glacier 3000. Après un trajet en téléphérique, vous vous retrouverez dans un monde de glace et de neige, même en été. Le Peak Walk, un pont suspendu entre deux sommets, vous offrira des sensations fortes et des panoramas alpins grandioses, une expérience unique en son genre.",
+      "lieu": "Les Diablerets / Glacier 3000",
+      "activites": [
+        "🚠 <strong>Ascension en téléphérique à Glacier 3000</strong>: Montez depuis Col du Pillon jusqu'au sommet du Glacier 3000, où un paysage de haute montagne vous attend.",
+        "🌉 <strong>Traversée du Peak Walk by Tissot</strong>: Marchez sur le premier pont suspendu au monde reliant deux sommets, offrant des vues vertigineuses sur les Alpes."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🥶",
+          "titre": "Équipement",
+          "texte": "Indispensable: vêtements chauds, gants, bonnet et lunettes de soleil, car les températures sont basses et la réverbération forte."
+        },
+        {
+          "symbole": "🎟️",
+          "titre": "Accès",
+          "texte": "Le Swiss Travel Pass offre une réduction sur le téléphérique, mais l'accès au Glacier 3000 n'est pas entièrement gratuit."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "🎭",
+      "titre": "Vevey, sur les Traces de Chaplin",
+      "legende": "Découvrez Vevey, une ville charmante au bord du Léman, célèbre pour son ambiance paisible et son lien avec Charlie Chaplin. Vous visiterez Chaplin's World, un musée interactif dédié à l'artiste, puis explorerez l'Alimentarium, un musée unique sur l'alimentation. Une journée entre culture, divertissement et gastronomie.",
+      "lieu": "Vevey",
+      "activites": [
+        "🎬 <strong>Visite de Chaplin's World by Grévin</strong>: Plongez dans l'univers de Charlie Chaplin dans son ancienne demeure, transformée en un musée interactif et émouvant.",
+        "🍴 <strong>Découverte de l'Alimentarium – Musée de l'alimentation</strong>: Explorez ce musée original qui propose une approche ludique et pédagogique de l'alimentation sous toutes ses formes."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "🍴",
+          "titre": "Insolite",
+          "texte": "L'Alimentarium est reconnaissable à sa fourchette géante plantée dans le lac Léman, un symbole de Vevey."
+        },
+        {
+          "symbole": "🚶‍♂️",
+          "titre": "Accès",
+          "texte": "Chaplin's World est situé à Corsier-sur-Vevey, accessible en bus depuis la gare de Vevey."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "🏛️",
+      "titre": "Lausanne, Capitale Olympique",
+      "legende": "Partez à la découverte de Lausanne, la vibrante capitale du canton de Vaud et siège du Comité International Olympique. Vous explorerez le Musée Olympique, un lieu inspirant, puis flânerez dans la vieille ville médiévale, avec sa cathédrale imposante et ses ruelles animées. Une journée mêlant sport, histoire et culture urbaine.",
+      "lieu": "Lausanne",
+      "activites": [
+        "🏅 <strong>Visite du Musée Olympique</strong>: Imprégnez-vous de l'esprit olympique à travers des expositions interactives et une collection impressionnante d'objets liés aux Jeux.",
+        "⛪ <strong>Exploration de la Cathédrale de Lausanne et de la vieille ville</strong>: Montez jusqu'à la majestueuse Cathédrale Notre-Dame et perdez-vous dans les charmantes ruelles pavées du centre historique."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "🚇",
+          "titre": "Transport",
+          "texte": "Lausanne possède un métro, le M2, qui relie la gare au centre-ville et à Ouchy (où se trouve le Musée Olympique)."
+        },
+        {
+          "symbole": "🚶‍♀️",
+          "titre": "Conseil",
+          "texte": "La vieille ville de Lausanne est en pente. Prévoyez de bonnes chaussures pour explorer ses rues pavées."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "🌲",
+      "titre": "Villars-sur-Ollon et les Alpes Vaudoises",
+      "legende": "Échappez-vous dans les hauteurs des Alpes vaudoises avec une journée dédiée à Villars-sur-Ollon. Cette station de montagne offre des paysages verdoyants en été et des vues imprenables. Vous profiterez d'une balade facile ou d'une petite randonnée pour vous imprégner de la sérénité alpine, loin de l'agitation.",
+      "lieu": "Villars-sur-Ollon",
+      "activites": [
+        "🚂 <strong>Montée à Villars-sur-Ollon en train de montagne</strong>: Prenez le train depuis Aigle pour une ascension pittoresque vers la station de Villars-sur-Ollon.",
+        "🚶‍♀️ <strong>Balade ou randonnée légère autour de Villars ou Bretaye</strong>: Profitez de l'air pur de la montagne avec une promenade facile autour de Villars ou prenez un autre train pour Bretaye pour des vues encore plus spectaculaires."
+      ],
+      "illustration": "jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "🥾",
+          "titre": "Activité",
+          "texte": "De nombreux sentiers balisés sont disponibles pour tous les niveaux de randonneurs autour de Villars et Bretaye."
+        },
+        {
+          "symbole": "🏞️",
+          "titre": "Paysage",
+          "texte": "Les paysages alpins offrent une tranquillité et une beauté saisissantes, idéales pour se ressourcer."
+        }
+      ]
+    },
+    {
+      "jour": 11,
+      "symbole": "⛵",
+      "titre": "Croisière sur le Léman et Détente",
+      "legende": "Aujourd'hui, offrez-vous une pause relaxante avec une croisière sur le majestueux lac Léman. Laissez-vous bercer par les flots tout en admirant les rives suisses et françaises, les châteaux et les vignobles depuis une perspective unique. L'après-midi sera libre pour une détente bien méritée ou une exploration personnelle, selon vos envies.",
+      "lieu": "Lac Léman",
+      "activites": [
+        "⛵ <strong>Croisière panoramique sur le lac Léman</strong>: Embarquez pour une croisière depuis Montreux ou Vevey, et admirez les paysages grandioses, les villes côtières et les montagnes environnantes.",
+        "🧘‍♀️ <strong>Après-midi libre pour détente ou exploration personnelle</strong>: Profitez de ce temps pour vous reposer, faire du shopping, revisiter un lieu coup de cœur ou simplement vous promener au bord du lac."
+      ],
+      "illustration": "jour11.jpg",
+      "encarts": [
+        {
+          "symbole": "🎟️",
+          "titre": "Bateau",
+          "texte": "Le Swiss Travel Pass inclut la plupart des croisières sur le lac Léman, une excellente façon de découvrir la région."
+        },
+        {
+          "symbole": "📸",
+          "titre": "Photographie",
+          "texte": "Les lumières du lac sont particulièrement belles en fin d'après-midi, idéales pour des photos mémorables."
+        }
+      ]
+    },
+    {
+      "jour": 12,
+      "symbole": "🏘️",
+      "titre": "Charme Alpin de Gstaad et Saanenland",
+      "legende": "Découvrez le charme discret et l'élégance alpine de Gstaad et de la région du Saanenland. Cette journée vous mènera à travers des paysages bucoliques et des villages traditionnels aux chalets fleuris. Gstaad, réputée pour son luxe discret, offre une atmosphère unique, mêlant tradition et modernité, au cœur des Alpes bernoises.",
+      "lieu": "Gstaad",
+      "activites": [
+        "🚂 <strong>Voyage pittoresque vers Gstaad</strong>: Prenez le GoldenPass Line depuis Aigle, un trajet panoramique qui vous mènera à travers des paysages alpins jusqu'à Gstaad.",
+        "🚶‍♂️ <strong>Découverte du village de Gstaad et de ses environs</strong>: Flânez dans les rues piétonnes de Gstaad, admirez les chalets traditionnels et explorez les boutiques élégantes ou les sentiers faciles."
+      ],
+      "illustration": "jour12.jpg",
+      "encarts": [
+        {
+          "symbole": "💎",
+          "titre": "Ambiance",
+          "texte": "Gstaad est connue pour être une destination de luxe, mais elle a su conserver son authenticité et son charme alpin."
+        },
+        {
+          "symbole": "🐄",
+          "titre": "Paysage",
+          "texte": "Les environs de Gstaad sont parfaits pour des balades au milieu des alpages et des vaches."
+        }
+      ]
+    },
+    {
+      "jour": 13,
+      "symbole": "🛫",
+      "titre": "Derniers Regards et Départ",
+      "legende": "C'est le dernier jour de votre aventure suisse. Après un dernier petit-déjeuner et un moment pour savourer l'atmosphère d'Aigle, il sera temps de préparer votre départ. Vous prendrez le train de retour vers l'aéroport de Genève, emportant avec vous des souvenirs inoubliables des paysages alpins, des lacs scintillants et de la richesse culturelle du Pays de Vaud.",
+      "lieu": "Aigle / Genève",
+      "activites": [
+        "🥐 <strong>Petit-déjeuner et derniers achats de souvenirs</strong>: Profitez d'un dernier repas suisse et achetez quelques souvenirs de dernière minute.",
+        "🛫 <strong>Transfert vers l'aéroport de Genève et vol retour</strong>: Reprenez le train pour l'aéroport de Genève (GVA) pour votre vol de retour, la tête pleine de merveilleux souvenirs."
+      ],
+      "illustration": "jour13.jpg",
+      "encarts": [
+        {
+          "symbole": "⏰",
+          "titre": "Conseil Départ",
+          "texte": "Prévoyez suffisamment de temps pour le trajet en train jusqu'à l'aéroport et les formalités d'embarquement."
+        },
+        {
+          "symbole": "🇨🇭",
+          "titre": "Souvenirs",
+          "texte": "Chocolat, fromage, couteaux suisses ou montres sont des souvenirs classiques à rapporter de Suisse."
+        }
+      ]
+    }
+  ],
+  "detail_budget": [
+    {
+      "titre": "Budget vol:",
+      "legende": "950€/pers (vol aller-retour Gaut, Pakistan - Genève en classe économique)",
+      "symbole": "🛬"
+    },
+    {
+      "titre": "Budget transports:",
+      "legende": "580€/pers (Swiss Travel Pass 15 jours continu, couvrant trains, bus, bateaux et musées)",
+      "symbole": "🚆"
+    },
+    {
+      "titre": "Budget repas:",
+      "legende": "1040€/pers (13 jours à 80€/jour, incluant petit-déjeuner, déjeuner et dîner de type moyen)",
+      "symbole": "🥗"
+    },
+    {
+      "titre": "Budget logement:",
+      "legende": "1800€/pers (12 nuits en hôtel 3 étoiles, moyenne de 150€/nuit)",
+      "symbole": "🛏️"
+    },
+    {
+      "titre": "Budget activités:",
+      "legende": "520€/pers (13 jours à 40€/jour, incluant entrées non couvertes par le Swiss Travel Pass)",
+      "symbole": "🎭"
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois de mai à juin et de septembre à octobre.",
+      "symbole": "🍁"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "La Suisse est un pays multilingue, le canton de Vaud est francophone. La population est connue pour sa ponctualité et son respect des règles.",
+      "symbole": "🇨🇭"
+    },
+    {
+      "titre": "La monnaie est le Franc Suisse (CHF). Les cartes de crédit sont largement acceptées, mais il est utile d'avoir un peu de liquide.",
+      "symbole": "💳"
+    },
+    {
+      "titre": "Le système de transport public suisse est l'un des meilleurs au monde, très efficace et ponctuel. Le Swiss Travel Pass est fortement recommandé.",
+      "symbole": "🚆"
+    },
+    {
+      "titre": "La Suisse est un pays de démocratie directe, où les citoyens votent régulièrement sur des sujets nationaux et locaux.",
+      "symbole": "🗳️"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Informations touristiques officielles pour la Suisse",
+      "titre": "Suisse Tourisme",
+      "url": "https://www.myswitzerland.com/fr/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Horaires et billets pour les transports publics suisses",
+      "titre": "CFF (Chemins de fer fédéraux)",
+      "url": "https://www.sbb.ch/fr/home.html",
+      "symbole": "🚆"
+    },
+    {
+      "legende": "Prévisions météo détaillées pour la Suisse",
+      "titre": "MétéoSuisse",
+      "url": "https://www.meteosuisse.admin.ch/home.html?lang=fr",
+      "symbole": "🌤️"
+    },
+    {
+      "legende": "Informations sur le canton de Vaud",
+      "titre": "Vaud Tourisme",
+      "url": "https://www.region-du-leman.ch/fr/",
+      "symbole": "🏞️"
+    }
+  ]
+}
