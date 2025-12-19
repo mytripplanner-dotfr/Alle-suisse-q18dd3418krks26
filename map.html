@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - Alle suisse</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: 46.418440733333334, lng: 6.863757941666666 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":46.3190253,"lng":6.970566,"name":"Aigle","jour":1,"titre":"Arrivée en Suisse et Douceur Aiglonne","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.3190253,6.970566&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.3190253,6.970566","aiImageUrl":"jour1.jpg"},{"lat":46.4312213,"lng":6.9106799,"name":"Montreux","jour":3,"titre":"Perle du Léman: Montreux et Chillon","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.4312213,6.9106799&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.4312213,6.9106799","aiImageUrl":"jour3.jpg"},{"lat":46.43183399999999,"lng":6.9760367,"name":"Rochers de Naye","jour":4,"titre":"Panoramas Alpins aux Rochers de Naye","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.43183399999999,6.9760367&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.43183399999999,6.9760367","aiImageUrl":"jour4.jpg"},{"lat":46.5100372,"lng":6.753195499999999,"name":"Lavaux","jour":5,"titre":"Les Terrasses de Lavaux, Patrimoine UNESCO","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.5100372,6.753195499999999&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.5100372,6.753195499999999","aiImageUrl":"jour5.jpg"},{"lat":46.57775549999999,"lng":7.0624775,"name":"Gruyères","jour":6,"titre":"Gruyères, entre Fromage et Légendes","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.57775549999999,7.0624775&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.57775549999999,7.0624775","aiImageUrl":"jour6.jpg"},{"lat":46.3539288,"lng":7.205655099999999,"name":"Les Diablerets / Glacier 3000","jour":7,"titre":"Aventure Glaciaire à Glacier 3000","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.3539288,7.205655099999999&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.3539288,7.205655099999999","aiImageUrl":"jour7.jpg"},{"lat":46.4628333,"lng":6.8419192,"name":"Vevey","jour":8,"titre":"Vevey, sur les Traces de Chaplin","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.4628333,6.8419192&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.4628333,6.8419192","aiImageUrl":"jour8.jpg"},{"lat":46.5196535,"lng":6.6322734,"name":"Lausanne","jour":9,"titre":"Lausanne, Capitale Olympique","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.5196535,6.6322734&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.5196535,6.6322734","aiImageUrl":"jour9.jpg"},{"lat":46.2984285,"lng":7.0550134,"name":"Villars-sur-Ollon","jour":10,"titre":"Villars-sur-Ollon et les Alpes Vaudoises","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.2984285,7.0550134&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.2984285,7.0550134","aiImageUrl":"jour10.jpg"},{"lat":46.44141949999999,"lng":6.5295235,"name":"Lac Léman","jour":11,"titre":"Croisière sur le Léman et Détente","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.44141949999999,6.5295235&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.44141949999999,6.5295235","aiImageUrl":"jour11.jpg"},{"lat":46.4707612,"lng":7.284597399999999,"name":"Gstaad","jour":12,"titre":"Charme Alpin de Gstaad et Saanenland","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.4707612,7.284597399999999&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.4707612,7.284597399999999","aiImageUrl":"jour12.jpg"},{"lat":46.2043907,"lng":6.1431577,"name":"Aigle / Genève","jour":13,"titre":"Derniers Regards et Départ","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.2043907,6.1431577&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.2043907,6.1431577","aiImageUrl":"jour13.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI&callback=initMap">
+  </script>
+</body>
+</html>
